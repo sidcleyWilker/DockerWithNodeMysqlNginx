@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+<h1>Full Cycle Rocks!</h1>
+<table class="table">
+    <thead>
+        <th scope="col">Id</th>
+        <th scope="col">Nome</th>
+    </thead>
+    <tbody>
+        {{#each pessoas}}
+             <tr>
+                <td>{{this.dataValues.id}}</td>
+                <td>{{this.dataValues.nome}}</td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+</div>
+<div class="col"></div>
+</div>
+</div>
